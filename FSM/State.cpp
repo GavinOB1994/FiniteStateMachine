@@ -31,13 +31,13 @@ void State::climbing(Animation * a)
 void Idle::jumping(Animation* a)
 {
 	cout << "Going from Idling to Jumping" << endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Jumping());
 	delete this;
 }
 void Idle::climbing(Animation* a)
 {
 	cout << "Going from Idling to Climbing" << endl;
-	a->setCurrent(new Idle());
+	a->setCurrent(new Climbing());
 	delete this;
 }
 

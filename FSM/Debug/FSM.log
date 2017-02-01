@@ -1,3 +1,2 @@
-﻿  FSM.cpp
-  FSM.vcxproj -> C:\Users\Gavin\Desktop\College\Game Engineering\Finite state machine\FSM\Debug\FSM.exe
-  FSM.vcxproj -> C:\Users\Gavin\Desktop\College\Game Engineering\Finite state machine\FSM\Debug\FSM.pdb (Full PDB)
+﻿  State.cpp
+c:\users\gavin\desktop\college\game engineering\finite state machine\fsm\fsm\state.cpp(1): fatal error C1041: cannot open program database 'C:\Users\Gavin\Desktop\College\Game Engineering\Finite state machine\FSM\FSM\Debug\vc140.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
