@@ -1,9 +1,10 @@
 #include "stdafx.h"
 #include "Animation.h"
-
+#include "State.h"
 
 Animation::Animation()
 {
+	m_currentState = new Idle();
 }
 
 void Animation::setCurrent(State * s)
